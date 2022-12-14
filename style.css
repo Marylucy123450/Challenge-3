@@ -1,18 +1,18 @@
 
 body {
-    background-color: aqua;
+    background-color: rgb(255, 230, 0);
 }
 #imageHolder {
     width: 250px;
     height: 200px;
-    border-radius: 15px 50px 30px;
+    border-radius: 20px 55px 30px;
 
 }
 
 #sectionHeading {
     font-size: 50px;
     text-align: center;
-    color: blue;
+    color: rgb(9, 9, 15);
 }
 #movieHead {
     text-align: center;

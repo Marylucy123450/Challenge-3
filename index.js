@@ -4,7 +4,7 @@ const baseUrl = "http://localhost:3000/films";
 
 function fetchData() {
     fetch(baseUrl)
-    .then(res => res.json())
+    .then(respone => respone.json())
     .then((data) => { 
         data.forEach((films) =>{
             let li = document.createElement("li");
