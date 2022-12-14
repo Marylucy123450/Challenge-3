@@ -1,12 +1,12 @@
 
-const baseUrl = "http://localhost:3000/films";
+const baseUrl = "https://challenge-3-fawn.vercel.app/db.json";
 
 
 function fetchData() {
     fetch(baseUrl)
     .then(respone => respone.json())
     .then((data) => { 
-        data.forEach((films) =>{
+        data.films.forEach((films) =>{
             let li = document.createElement("li");
             li.textContent = films.title;
             li.addEventListener("click", (e)=>{
